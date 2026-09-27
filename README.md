@@ -208,9 +208,10 @@ SELECT * FROM pg_buffercache_evict_all();
 ## 8. Структура репозитория
 
 ```text
-crop-monitoring-db-benchmark/
+miigaik_one/
 ├── README.md
 ├── schema/
+│   ├── 00_auxiliary_tables.sql
 │   ├── 01_model_I_relational.sql
 │   ├── 02_model_II_indexed.sql
 │   ├── 03_model_III_materialized_views.sql
@@ -230,7 +231,8 @@ crop-monitoring-db-benchmark/
 │   ├── benchmark_runner.sql
 │   └── benchmark_methodology.md
 └── results/
-    └── benchmark_results.csv
+    ├── benchmark_results.csv
+    ├── preprocessing_results.csv
 ```
 
 ## 9. Воспроизводимость эксперимента
