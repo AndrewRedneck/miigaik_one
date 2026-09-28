@@ -232,7 +232,7 @@ miigaik_one/
 │   └── benchmark_methodology.md
 └── results/
     ├── benchmark_results.csv
-    ├── preprocessing_results.csv
+    └──  preprocessing_results.csv
 ```
 
 ## 9. Воспроизводимость эксперимента
